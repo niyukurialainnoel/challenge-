@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+	</title>
+	<link rel="stylesheet" type="text/css" href="country.css">
+</head>
+<body>
+	<script src="jquery-3.6.1.js"></script>
+	<script src="change.js"></script>
+	<div id="content">
+		<div id="button">
+			<button id="burundi" onclick="burundi()">burundi</button>
+			<button id="tanzania" onclick="tanzania()">tanzania</button>
+			<button id="uganda" onclick="uganda()">uganda</button>
+			<button id="kenya" onclick="kenya()">kenya</button>
+			<button id="nigeria" onclick="nigeria()">nigeria</button>
+			<button id="nigeriaa">nigeriaa</button>
+		</div>
+		<div id="pic">
+			<img src="burundi.png" id="image">
+		</div>
+	</div>
+		<script>
+		$(document).ready(function(){
+
+			$("#burundi").click(function(){
+			$("#nigeriaa").hide();
+		});
+
+		});
+
+
+	</script>
+</body>
+</html>
